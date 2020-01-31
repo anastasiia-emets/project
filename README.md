@@ -1,5 +1,5 @@
 # project
-# [DEMO](https://anastasiia-emets.github.io/project/dist/index.html)
+# [DEMO](https://anastasiia-emets.github.io/project/dist/)
 # technology
 Includes:
 - Gulp
