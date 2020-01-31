@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Test-task</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="./js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form id="msform">
+        <fieldset>
+          <div class="first-block"><img class="first-block__logo" src="images/logo.jpg" alt="">
+            <div class="first-block__header">Узнайте стоимость проекта онлайн</div>
+            <div class="first-block__description">Пройдите тест для расчета предварительной стоимости проекта</div>
+            <input class="first-block__button next" type="button" name="next" value="Начать тест">
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="wrapper-item next">
+            <div class="second-block"><img class="second-block__logo" src="images/logo.jpg" alt="">
+              <div class="second-block__header">Выберите тип сайта:</div>
+            </div>
+            <div class="gallery next">
+              <button class="gallery__block" value="landing" onclick="radio(this)"><img class="gallery__block-img" src="images/web-site_(1).png">
+                <div class="gallery__block-header">Landing pages</div>
+              </button>
+              <button class="gallery__block" value="card" onclick="radio(this)"><img class="gallery__block-img" src="images/web-site.png">
+                <div class="gallery__block-header">сайт визитка</div>
+              </button>
+              <button class="gallery__block" value="corporate" onclick="radio(this)"><img class="gallery__block-img" src="images/group.png">
+                <div class="gallery__block-header">Корпоративный сайт</div>
+              </button>
+              <button class="gallery__block" value="promo" onclick="radio(this)"><img class="gallery__block-img" src="images/megaphone.png">
+                <div class="gallery__block-header">промо сайт</div>
+              </button>
+              <button class="gallery__block" value="shop" onclick="radio(this)"><img class="gallery__block-img" src="images/laptop.png">
+                <div class="gallery__block-header">интеренет магазин</div>
+              </button>
+              <button class="gallery__block" value="app" onclick="radio(this)"><img class="gallery__block-img" src="images/app.png">
+                <div class="gallery__block-header">Сервисное приложение</div>
+              </button>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="first-block"><img class="first-block__logo" src="images/logo.jpg" alt="">
+            <div class="first-block__header">Стоимость вашего проекта от </div>
+            <div class="first-block__price">8888$</div>
+            <div class="first-block__description">Оставить заявку на точный расчет:</div>
+            <form class="third-block__form">
+              <input class="third-block__input" placeholder="+38 (0..)" type="text" minlength="9" maxlength="9">
+              <input class="first-block__button" type="submit" value="Заказать" disabled>
+            </form>
+          </div>
+        </fieldset>
+      </form>
+      <div class="contact-block">
+        <div class="contact-block__top-header">Знакомьтесь</div><img class="contact-block__circle" src="images/elips.jpg">
+        <div class="contact-block__name">Дмитрий Тищенко</div>
+        <div class="contact-block__line"></div>
+        <div class="contact-block__position">Ваш будущий менеджер проектов</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    title Test-task
+    link(rel='stylesheet', href='./css/all.css')
+    link(href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet")
+    script(src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js")
+    script(src="https://code.jquery.com/jquery-2.2.4.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js")
+    
+    script(src="./js/index.js" defer)
+  body
+    .wrapper
+      form(id="msform")
+        fieldset
+          include componets/first-block/first-block.pug  
+        fieldset
+          include componets/second-block/second-block.pug  
+        fieldset
+          include componets/third-block/third-block.pug        
+      .contact-block
+        .contact-block__top-header Знакомьтесь
+        img.contact-block__circle(src="images/elips.jpg")              
+        .contact-block__name Дмитрий Тищенко
+        .contact-block__line
+        .contact-block__position Ваш будущий менеджер проектов
