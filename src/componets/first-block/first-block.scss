@@ -2,6 +2,9 @@
 
   border: 0;
   width: 100%;
+  height: 100vh;
+  margin-top: 2%;
+  margin-bottom: 2%;
   box-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.2), 0 0 71px 5px rgba(255, 255, 255, 0.71);
   border-radius: 5px;
   background-image: url(../../images/back.jpg);
@@ -37,6 +40,7 @@
     font-weight: 500;
     line-height: 38.67px;
     margin-top: 20px;
+    margin-bottom:40px;
     
   }
   &__button {
@@ -56,4 +60,5 @@
     margin-bottom: 5%;
     background-image: linear-gradient(to right, #7257fb 0%, #bf7de7 100%);
   }
+ 
 }

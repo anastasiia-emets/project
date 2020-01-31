@@ -35,18 +35,18 @@ fieldset{
 
 .contact-block {
   width: 30%;
-  height: 90vh;
+  height: 100vh;
   box-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   background-color: #ffffff;
   margin-left: 30px;
-  margin-top: 2%;
+  margin-top: 12px;
   background-image: url(../../images/слой3.jpg);
   background-size: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
-  margin-bottom: 1%;
-  
+
+  margin-bottom:12px;
   &__top-header {
     height: 75px;
     border-radius: 5px 5px 0 0;
